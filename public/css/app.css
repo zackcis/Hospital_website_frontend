@@ -381,6 +381,7 @@
 .doctor {
     /* width: 30px; */
     /* border-radius: 50%; */
+    width: 200px;
 }
 
 .doctor:hover {
@@ -429,9 +430,11 @@
     width: 100% !important;
 
 }
-.carousel-item{
+
+.carousel-item {
     gap: 100px !important;
 }
+
 .quots-container {
     width: 80%;
     display: flex;
@@ -532,13 +535,15 @@
 .map {
     width: 100%;
 }
-.contact-information{
+
+.contact-information {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     gap: 30px;
 }
+
 .contact-form {
     width: 80%;
     display: flex;
@@ -737,43 +742,60 @@
     border-radius: 50%;
 
 }
+
 @media screen and (max-width: 430px) {
-    .container-fluid{
+    .hero-sec {
+        /* background-image: url('../images/hero-bg.jpg');
+    background-repeat: no-repeat; */
+        background-size: cover;
+        width: 100%;
+    }
+
+    .container-fluid {
         /* background: #000; */
         width: 100% !important;
         display: flex !important;
     }
-    .title-hero{
+
+    .title-hero {
         font-size: 30px;
     }
-    .hero-paragraph{
+
+    .hero-paragraph {
         font-size: 15px;
     }
-    .cards{
-        display: flex ;
+
+    .cards {
+        display: flex;
         flex-direction: column;
         position: static;
         gap: 20px;
         padding-top: 30px;
     }
-    .card-1{
+
+    .card-1 {
         width: 100%;
     }
-    .card{
+
+    .card {
         width: 100%;
     }
-    .video-sec{
+
+    .video-sec {
         display: flex;
         flex-direction: column;
         padding-bottom: 40px;
     }
-    .video{
+
+    .video {
         width: 100%;
     }
+
     .video iframe {
         width: 100%;
     }
-    .stats{
+
+    .stats {
         padding-top: 60px;
         display: flex;
         flex-direction: column;
@@ -781,15 +803,145 @@
         align-items: center;
         gap: 90px;
     }
-    .stat{
+
+    .stat {
         width: 100%;
     }
-    .services-cards{
+
+    .services-cards {
         display: flex;
         flex-direction: column;
 
     }
-    .services-card{
+
+    .services-card {
         width: 100%;
+    }
+
+    .book {
+        display: flex;
+        flex-direction: column;
+        /* gap: 10px; */
+    }
+
+    .book form {
+        width: 90%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .area {
+        width: 100%;
+    }
+
+    .doctors {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .doctors-container {
+        width: 95%;
+    }
+
+    .doctors-cards {
+        width: 100%;
+        gap: 30px;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .doctor-card {
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .img-doc-container {
+        width: 100px;
+        border-radius: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doc-desc {
+        width: 70%;
+    }
+
+    .doctor {
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .quot-tanya {
+        display: none;
+    }
+
+    .quot {
+        width: 100%;
+        position: static;
+    }
+
+    .test-img {
+        position: static;
+    }
+
+    .carousel-item {
+        width: 100% !important;
+    }
+
+    .gallery {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kolchi-container {
+        width: 90%;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-footer {
+        padding-left: 30px;
+    }
+
+    .first-footer-size {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+    }
+
+    .first-column {
+        width: 80%;
+    }
+
+    .second-column {
+        width: 100%;
+        /* margin: 30px; */
+    }
+
+    .unor {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .newsletter {
+        width: 80%;
+    }
+
+    .second-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paragraph-footer {
+        text-align: center;
     }
 }
