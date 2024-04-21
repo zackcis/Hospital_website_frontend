@@ -1,0 +1,341 @@
+.mynav{
+    width: 70vw !important; 
+    justify-content: space-between !important;
+    gap: 30% !important;
+    /* background: #000; */
+}
+.navbar-brand{
+    color: #2c4964 !important;
+    font-size: 30px !important;
+}
+.navbar-nav{
+    gap: 3% !important;
+}
+.but-nav{
+    margin-top: 10px;
+    background-color: #1977cc;
+    color: white;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+}
+
+/** Hero section **/
+.hero-sec {
+    background: #000;
+    height: 80vh;
+    width: 100%;
+    background-image: url('../images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    /* flex: column; */
+    /* justify-content: center; */
+}
+.hero-first{
+    margin-top: 10%;
+    width: 100%;
+    /* background: #000; */
+    
+}
+.title-hero{
+    color: #2c4964;
+    font-size: 55px;
+}
+.hero-paragraph{
+    color: #2c4964;
+    font-size: 25px;
+
+}
+.but-1{
+    background-color: #1977cc;
+    color: white;
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 50px;
+    border: none;
+}
+
+/*!cards in hero section */
+.cards-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25vh;
+}
+.cards{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    position: absolute;
+
+}
+.card-1{
+    display: flex;
+    padding: 30px;
+    /* padding-top: 20px; */
+    flex: column;
+    align-items: center;
+    background-color: #1977cc;
+    justify-content: center;
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+/* .title-card-1{
+    font-size: 40px;
+} */
+.card-but-1{
+    background-color: #2f94ec88;
+    color: white;
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 50px;
+    border: none;
+}
+.card{
+    width: 15%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.cards-paragraph{
+    width: 85%;
+    text-align: center;
+}
+.icons-hero{
+    padding: 20px;
+    font-size: 35px;
+    color: #1977cc;
+}
+/* &video section */
+
+.video-sec{
+    gap: 50px;
+    width: 100%;
+}
+.video{
+    width: 40%;
+}
+.video-title{
+    color: #2c4964;
+}
+.video-description{
+
+
+}
+.icons-vid{
+    font-size: 35px;
+    padding: 20px;
+    color: #1977cc;
+    border: 1px solid #1979ccb6;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.icons-container{
+    display: flex;
+    flex: column;
+    gap: 50px;
+}
+/*&Stats */
+.stats{
+    background-color: #f1f7fd;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 5%;
+}
+.stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    background-color: white;
+    width: 15%;
+    position: relative;
+    padding: 20px;
+}
+.stats-icons{
+color: white;
+background-color: #1977cc;
+position: absolute;
+top: -30%;
+/* margin: 10%; */
+font-size: 20px;
+padding: 20px;
+border: 1px solid #1979ccb6;
+border-radius: 50%;
+}
+/** services */
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.services-title{
+    color: #2c4964;
+}
+.services-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.services-card{
+    padding: 4%;
+    border: 1px solid #1977cc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    gap: 20px;
+}
+.services-icons{
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+    background-color: #1977cc;
+    border-radius: 10px;
+}
+/** book */
+.form-title{
+    color: #2c4964;
+}
+.book{
+    background-color: #f1f7fd;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.input{
+    width: 30%;
+    padding-bottom: 10px;
+}
+.area{
+    width: 92%;
+}
+/*& Doctors */
+.doctors-title{
+    color: #2c4964;
+}
+.doctors{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.doctors-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.doctors-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.doctor-card{
+    padding: 20px;
+    margin: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    /* background: #000; */
+    /* border:  1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.doc-name{
+    color: #2c4964;
+}
+.doctor{
+    /* width: 30px; */
+    border-radius: 50%;
+}
+.doc-icons{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+}
+.doc-icon{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #9dbad5;
+    border-radius: 50%;
+}
+/** Quots */
+.quots{
+    width: 100%;
+    display: flex  !important;
+    justify-content: center  !important;
+    align-items: center  !important;
+    flex-direction: column;
+
+}
+.carousel-item{
+    display: flex !important; 
+    justify-content: center !important; 
+    align-items: center !important; 
+
+}
+.quots-container{
+    width: 80%;
+    display: flex;
+    gap: 10%;
+}
+.quot{
+    padding: 20px;
+    /* background: #000; */
+    display: flex;
+    width:37% ;
+    /* border-radius: 10px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+.quot-icons{
+    font-size: 30px;
+    color: #9dbad5;
+    margin: 10px;
+}
+.test-name{
+    color: #9e9e9e;
+}
+.test-img{
+    position: absolute;
+    left: -10%;
+}
+.test-desc{
+    margin-left: 20px;
+}
+.carousel-inner{
+    width: 80% !important;
