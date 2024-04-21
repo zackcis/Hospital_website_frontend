@@ -24,7 +24,9 @@
     border-radius: 50px;
     border: none;
 }
-
+.second-part-vid{
+    width: 80%;
+}
 .but-nav:hover {
     background-color: #18558af8;
 }
@@ -145,14 +147,24 @@
 /* &video section */
 
 .video-sec {
-    gap: 50px;
+    gap: 20px;
     width: 100%;
+    /* background: pink; */
 }
 
 .video {
     width: 40%;
+    /* background: red; */
     /* background-image: url('../images/about.jpg'); */
 
+}
+.second-part-vid{
+    width: 40%;
+}
+.vid-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .video-title {
@@ -185,7 +197,7 @@
 .icons-container {
     display: flex;
     flex: column;
-    gap: 50px;
+    
 }
 
 /*&Stats */
